@@ -129,15 +129,15 @@ public class ParkingSpotEntity implements Serializable {
         this.block = block;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof ParkingSpotEntity that)) return false;
-        return Objects.equals(getId(), that.getId()) && Objects.equals(getParkingSportNumber(), that.getParkingSportNumber()) && Objects.equals(getLicencePlateCar(), that.getLicencePlateCar()) && Objects.equals(getBrandCar(), that.getBrandCar()) && Objects.equals(getModelCar(), that.getModelCar()) && Objects.equals(getColorCar(), that.getColorCar()) && Objects.equals(getRegistrationDate(), that.getRegistrationDate()) && Objects.equals(getResponsableName(), that.getResponsableName()) && Objects.equals(getApartment(), that.getApartment()) && Objects.equals(getBlock(), that.getBlock());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId(), getParkingSportNumber(), getLicencePlateCar(), getBrandCar(), getModelCar(), getColorCar(), getRegistrationDate(), getResponsableName(), getApartment(), getBlock());
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (!(o instanceof ParkingSpotEntity that)) return false;
+//        return Objects.equals(getId(), that.getId()) && Objects.equals(getParkingSportNumber(), that.getParkingSportNumber()) && Objects.equals(getLicencePlateCar(), that.getLicencePlateCar()) && Objects.equals(getBrandCar(), that.getBrandCar()) && Objects.equals(getModelCar(), that.getModelCar()) && Objects.equals(getColorCar(), that.getColorCar()) && Objects.equals(getRegistrationDate(), that.getRegistrationDate()) && Objects.equals(getResponsableName(), that.getResponsableName()) && Objects.equals(getApartment(), that.getApartment()) && Objects.equals(getBlock(), that.getBlock());
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(getId(), getParkingSportNumber(), getLicencePlateCar(), getBrandCar(), getModelCar(), getColorCar(), getRegistrationDate(), getResponsableName(), getApartment(), getBlock());
+//    }
 }
